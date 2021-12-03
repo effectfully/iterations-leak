@@ -1,10 +1,9 @@
 {-# LANGUAGE DeriveFunctor #-}
 {-# LANGUAGE LambdaCase #-}
 
-{-# OPTIONS_GHC -O2 -ddump-simpl -ddump-to-file -dsuppress-all -fforce-recomp -dumpdir /tmp/dumps #-}
-
 module Iterations where
 
+import Control.Exception
 import Control.Monad
 import Control.Monad.IO.Class
 
